@@ -1,0 +1,14 @@
+.menu-container {
+  background-color: #100720;
+  color: #fcf8e8;
+  height: 57px;
+  align-items: center;
+
+  .ant-menu-item a {
+    color: #fff
+  }
+
+  .ant-menu-item-selected a{
+    color: #1890ff;
+  }
+}
