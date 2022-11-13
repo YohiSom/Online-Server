@@ -55,7 +55,7 @@ function ModalLiveServer({
 
         {!countDown && !open ? (
           <p>Loading Timer...</p>
-        ) : countDown && seconds > 0 ? (
+        ) : (countDown && seconds) > 0 || minutes > 0 ? (
           <p>
             {minutes} : {seconds}
           </p>
